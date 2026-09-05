@@ -1,0 +1,107 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    background-color: #457b9d;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Common section styling */
+section {
+    width: 100%;
+    min-height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+
+    border-bottom: 5px solid #1d3557;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Section 1 - Linear Gradient */
+.section-one {
+    background: linear-gradient(to right, #a8dadc, #457b9d);
+
+    /* Parallax-like effect */
+    background-attachment: fixed;
+}
+
+.section-one h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Section 2 - Radial Gradient */
+.section-two {
+    background: radial-gradient(circle, #ffe8d6, #ddbea9);
+
+    /* Parallax-like effect */
+    background-attachment: fixed;
+}
+
+.section-two h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+/* Section 3 */
+.section-three {
+    background-color: #f1faee;
+}
+
+.section-three h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.section-three li {
+    margin: 15px;
+    font-size: 20px;
+}
+
+/* Section 4 */
+.section-four {
+    background-color: #dbe7f0;
+}
+
+.section-four h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

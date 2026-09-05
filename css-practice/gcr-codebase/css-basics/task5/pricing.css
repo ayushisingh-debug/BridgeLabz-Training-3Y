@@ -1,0 +1,101 @@
+/* Page styling */
+body {
+    margin: 0;
+    padding: 40px;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f4f7;
+    color: #222;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Three-column layout */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    align-items: stretch;
+}
+
+/* Pricing plan */
+.plan {
+    flex: 1;
+
+    max-width: 300px;
+
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+
+    background-color: white;
+
+    text-align: center;
+
+    /* Equal height */
+    display: flex;
+    flex-direction: column;
+
+    /* Smooth hover transition */
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Hover effect */
+.plan:hover {
+    transform: scale(1.05);
+    background-color: #e8f4ff;
+}
+
+/* Plan heading */
+.plan h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+/* Price */
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Features */
+.plan ul {
+    text-align: left;
+    padding-left: 20px;
+
+    line-height: 2;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+
+    margin-top: auto;
+    padding: 12px 25px;
+
+    background-color: #2563eb;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+}
+
+/* Button hover */
+.button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Highlight Standard plan */
+.popular {
+    border: 3px solid #f59e0b;
+    background-color: #fff8e1;
+}

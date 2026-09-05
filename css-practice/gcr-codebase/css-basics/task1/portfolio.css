@@ -1,0 +1,99 @@
+/* Page layout */
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f5f3ff;
+    color: #22223b;
+
+    font-family: Arial, sans-serif;
+}
+
+/* Fixed header */
+header {
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+
+    background-color: #312e81;
+    color: white;
+
+    padding: 15px 20px;
+}
+
+/* Name */
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    margin-right: 20px;
+
+    font-size: 1em;
+}
+
+/* Main section */
+main {
+    flex: 1;
+
+    /* Space for fixed header */
+    padding: 150px 5% 40px;
+
+    min-height: 70vh;
+}
+
+/* Introduction section */
+.intro {
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+}
+
+/* Bio */
+.bio {
+    width: 60%;
+}
+
+.bio h2 {
+    font-size: 2rem;
+}
+
+.bio p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Profile image */
+.profile-image {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1b4b;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 1rem;
+}

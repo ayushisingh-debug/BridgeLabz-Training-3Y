@@ -1,0 +1,94 @@
+/* Page styling */
+body {
+    margin: 0;
+    padding: 30px;
+
+    background-color: #e6e6e6;
+
+    font-family: Georgia, serif;
+}
+
+/* Main newspaper area */
+main {
+    max-width: 1100px;
+
+    margin: auto;
+    padding: 30px;
+
+    background-color: white;
+}
+
+/* Newspaper heading */
+h1 {
+    column-span: all;
+
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    border-bottom: 4px solid black;
+
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+/* Three-column structure */
+.article {
+    column-count: 3;
+    column-gap: 40px;
+
+    text-align: justify;
+
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Paragraph spacing */
+.article p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Image aligned to the left */
+.article img {
+    width: 180px;
+
+    float: left;
+
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+
+    .article {
+        column-count: 2;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .article {
+        column-count: 1;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
